@@ -10,18 +10,18 @@
 #     9.First 
 #    10.Reversed 
 
-Sentence=input("Enter an Original Sentence:")
-print("Original:",Sentence)
-print("CSharacters(with spaces):",len(Sentence))
-print("Characters(without spaces):",len(Sentence.replace(" ","")))
-print("Words:",len(Sentence.split()))
-print("UPPERCASE:",Sentence.upper())
-print("Lowercase:",Sentence.lower())
-print("Title Case:",Sentence.title())
+Sentence=input("Enter an Original Sentence:") # user input as sentence
+print("Original:",Sentence)                             #printing original
+print("Characters(with spaces):",len(Sentence)) #printing characters with spaces
+print("Characters(without spaces):",len(Sentence.replace(" ",""))) # without spaces
+print("Words:",len(Sentence.split()))   #splitiing sentence into words using split sunc
+print("UPPERCASE:",Sentence.upper())    #converting uppercase
+print("Lowercase:",Sentence.lower())    #converting lowercase
+print("Title Case:",Sentence.title())   #ritlecase
 words=Sentence.split()
 print("First Word:",words[0])
 print("Last Word:",words[-1])
-print("Reversed:",Sentence[::-1])
+print("Reversed:",Sentence[::-1])    #reversed sentence 
 
 # Output:1
 # Enter an Original Sentence: Hello World python

@@ -36,3 +36,17 @@ elif choice==6:
     print("K to F conversion:",k_f)
 elif choice==7:
     print("Exit")
+
+
+    
+# output 1:
+# enter an temperature you want convert: 30
+# 1.Celsius to fahrenheit
+# 2.Fahrenheit to celsius
+# 3.Celsius to Kelvin
+# 4.Kelvin to Celsius
+# 5.Fahrenheit to Kelvin
+# 6.Kelvin to Fahrenheit
+# 7.Exit
+# enter an choice you wanted to calculate:1
+# C to F conversion: 86.0
